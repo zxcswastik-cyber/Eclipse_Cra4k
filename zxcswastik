@@ -2641,4 +2641,3 @@ local function EclipseGestioUI()
         page.CanvasSize = UDim2.new(0,0,0,0)
         page.AutomaticCanvasSize = Enum.AutomaticSize.Y
     
-Показана только часть файла из-за его большого размера
