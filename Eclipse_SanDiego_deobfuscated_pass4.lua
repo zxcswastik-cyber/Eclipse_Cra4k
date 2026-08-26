@@ -194,8 +194,9 @@ end if isArmed(uiColor_2) then
 return "Armed",State.ESPColors.Armed;
 end return "Civilian",State.ESPColors.Civilian;
 end local function getHumanoid(character) return character and character:FindFirstChildOfClass("Humanoid") ;
-end button;
-do frame=Instance.new("Frame");
+end
+local button;
+do local frame=Instance.new("Frame");
     frame.Name="NotifContainer";
     frame.Size=UDim2.new(0,200,0,200);
     frame.Position=UDim2.new(0.5, -100,0,5);
@@ -2261,7 +2262,8 @@ if  not doors then
 end namedDoor=doors:FindFirstChild(nameplate.Name);
 if namedDoor then
     return namedDoor;
-end nameplatePosition;
+end
+local nameplatePosition;
 for doorIndex,door in ipairs(nameplate:GetDescendants()) do if door:IsA("BasePart") then
             nameplatePosition=door.Position;
             break;
