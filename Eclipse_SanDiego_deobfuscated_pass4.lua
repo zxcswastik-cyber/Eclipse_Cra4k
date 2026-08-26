@@ -594,7 +594,7 @@ do input_15,input_16,input_17=false,nil,nil;
         end);
 end
 end);
-input_18;
+local input_18;
 MainPanel.InputChanged:Connect(function(input_19) if ((input_19.UserInputType==Enum.UserInputType.Touch) or (input_19.UserInputType==Enum.UserInputType.MouseMovement)) then
         input_18=input_19;
     end
@@ -2048,7 +2048,7 @@ instanceObject_9.P=1250;
 instanceObject_9.Parent=vehicle_7;
 eventConnection_17=vehicle_5;
 end if (instanceObject_9 and instanceObject_9.Parent) then
-rootPart_22;
+local rootPart_22;
 if (vehicle_9.Magnitude>1) then
     rootPart_22=vehicle_9.Unit;
 else rootPart_22=vehicle_7.CFrame.LookVector * (((vehicle_10>0) and 1) or  -1) ;
